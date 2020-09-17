@@ -6,23 +6,26 @@
     <title>Image Challenge</title>
 </head>
 <body>
-    <section class = "trees">
-        <h2>Link to info on the same page</h2>
-        <p>Local image (same folder)</p>
-        <img src="./Trees.png" alt="Image of mountain and trees">
-        <a href="#kitty">Link to id on same page</a>
-    </section>
-    <section class = "light-house">
-        <h2>Link to page on local site</h2>
-        <p>Local image (different folder)</p>
-        <img src="./Image folder/lighthouse.jpg" alt="">
-        <a href="./additional-page.html" target="_blank">Local Link</a>
-    </section>
-    <section class = "kitty">
+    <main>
+        <section class = "trees">
+            <img class = trees-image src="./Trees.png" alt="Image of mountain and trees">
+            <h2>Link to info on the same page</h2>
+            <p>Local image (same folder)</p>
+            <a href="#kitty">Link to id on same page</a>
+        </section>
+        <section class = "light-house">
+            <img class = "light-house-photo" src="./Image folder/lighthouse.jpg" alt="">
+            <h2>Link to page on local site</h2>
+            <p>Local image (different folder)</p>
+            <a href="./additional-page.html" target="_blank">Local Link</a>
+        </section>
+    </main>
+    <footer id = "kitty">
+        <img class = "kitty-image" src="http://placekitten.com/788/470"></img>
         <h2>Link to external site</h2>
         <p>External image/generator</p>
-        <a href="https://www.w3schools.com/">W3 schools - HTML links</a>
-    </section>
+        <a href="https://www.w3schools.com/" target = "_blank">W3 schools - HTML links</a>
+    </footer>
     
 </body>
 </html>
